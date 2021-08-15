@@ -4,5 +4,11 @@
   "editor.autoIndent": "full",
   "prettier.enable": true,
   "prettier.tabWidth": 2,
-  "autoimport.doubleQuotes": false
+  "autoimport.doubleQuotes": false,
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/a646ef94-2c13-4cb1-bd2f-569926b0217c/resourceGroups/TesteContaAzure/providers/Microsoft.Web/sites/fullstack-react-example",
+  "appService.deploySubpath": "."
 }
