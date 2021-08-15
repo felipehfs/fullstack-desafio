@@ -1,0 +1,8 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.autoIndent": "full",
+  "prettier.enable": true,
+  "prettier.tabWidth": 2,
+  "autoimport.doubleQuotes": false
+}
