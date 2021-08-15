@@ -1,0 +1,13 @@
+version: '3'
+volumes:
+  vendor:
+services:
+  api:
+    image: golang:1.16
+    ports:
+      - 80:8300
+    working_dir: /app
+    volumes:
+      - .:/app
+      - vendor:/go
+    command: go run main.go

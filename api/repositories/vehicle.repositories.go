@@ -17,7 +17,7 @@ func NewVehicleRepository(session *gorm.DB) VehicleRepository {
 
 func (v *VehicleRepository) ReadAll() []models.Vehicle {
 	var vehicles []models.Vehicle
-	v.Session.Find(&vehicles).Order("CreatedAt")
+	v.Session.Find(&vehicles).Order("created_at")
 	return vehicles
 }
 
