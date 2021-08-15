@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/header/header.module.css"],"names":[],"mappings":"AAAA,qBACE,UAAW,CACX,4BAA6B,CAC7B,UAAW,CACX,YAAa,CACb,WACF","file":"main.66714ba3.chunk.css","sourcesContent":[".input {\n  width: 100%;\n  background-color: transparent;\n  color: #fff;\n  outline: none;\n  padding: 8px;\n}\n"]}
